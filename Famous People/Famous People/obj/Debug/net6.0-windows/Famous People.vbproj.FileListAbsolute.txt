@@ -32,3 +32,20 @@ C:\Users\zacgr\source\repos\Famous People\Famous People\obj\Debug\net6.0-windows
 C:\Users\zacgr\source\repos\Famous People\Famous People\obj\Debug\net6.0-windows\Famous People.pdb
 C:\Users\zacgr\source\repos\Famous People\Famous People\obj\Debug\net6.0-windows\Famous People.genruntimeconfig.cache
 C:\Users\zacgr\source\repos\Famous People\Famous People\obj\Debug\net6.0-windows\ref\Famous People.dll
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\obj\Debug\net6.0-windows\Famous People.vbproj.AssemblyReference.cache
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\obj\Debug\net6.0-windows\Famous_People.Form1.resources
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\obj\Debug\net6.0-windows\Famous People.vbproj.GenerateResource.cache
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\obj\Debug\net6.0-windows\Famous People.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\obj\Debug\net6.0-windows\Famous People.AssemblyInfoInputs.cache
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\obj\Debug\net6.0-windows\Famous People.AssemblyInfo.vb
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\obj\Debug\net6.0-windows\Famous People.vbproj.CoreCompileInputs.cache
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\obj\Debug\net6.0-windows\Famous People.dll
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\obj\Debug\net6.0-windows\refint\Famous People.dll
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\obj\Debug\net6.0-windows\Famous People.pdb
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\bin\Debug\net6.0-windows\Famous People.exe
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\bin\Debug\net6.0-windows\Famous People.deps.json
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\bin\Debug\net6.0-windows\Famous People.runtimeconfig.json
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\bin\Debug\net6.0-windows\Famous People.dll
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\bin\Debug\net6.0-windows\Famous People.pdb
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\obj\Debug\net6.0-windows\Famous People.genruntimeconfig.cache
+Z:\Visual Studio 2022\Famous People GIT\Famous People\Famous People\obj\Debug\net6.0-windows\ref\Famous People.dll

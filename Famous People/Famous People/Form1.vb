@@ -1,51 +1,48 @@
 ﻿Public Class Form1
     Dim pathname As String 'define pathname
-
-    Function PopulateFields(person As String)
-        Dim fileReader As System.IO.StreamReader, filereaderpath As String
-        filereaderpath = pathname
-        Dim Turing, Berners, Hopper, Babbage, Shannon
-        Using reader As System.IO.StreamReader
-            'in progress
-        End Using
-        If person = "Turing" Then
-            Turing =
-            txt_Facts.Text = ""
-            pbx_Photo.ImageLocation = pathname & "turing.jfif"
-            txt_Born.Text = "23 June 1912"
-            txt_Died.Text = "7 June 1954"
-        ElseIf person = "Berners" Then
-            Berners = My.Computer.FileSystem.ReadAllText(filereaderpath & "berners.txt")
-            pbx_Photo.ImageLocation = pathname & "berners.jfif"
-            txt_Born.Text = "8 June 1955"
-            txt_Died.Text = "N/A"
-            txt_Facts.Text = ""
-        ElseIf person = "Hopper" Then
-            Hopper = My.Computer.FileSystem.ReadAllText(filereaderpath & "hopper.txt")
-            pbx_Photo.ImageLocation = pathname & "hopper.jpg"
-            txt_Born.Text = "9 December 1906"
-            txt_Died.Text = "1 January 1992"
-            txt_Facts.Text = ""
-        ElseIf person = "Babbage" Then
-            Babbage = My.Computer.FileSystem.ReadAllText(filereaderpath & "babbage.txt")
-            pbx_Photo.ImageLocation = pathname & "babbage.jpg"
-            txt_Born.Text = "26 December 1791"
-            txt_Died.Text = "18 October 1871"
-            txt_Facts.Text = ""
-        ElseIf person = "Shannon" Then
-            Shannon = My.Computer.FileSystem.ReadAllText(filereaderpath & "shannon.txt")
-            pbx_Photo.ImageLocation = pathname & "shannon.jpg"
-            txt_Born.Text = "30 April 1916"
-            txt_Died.Text = "24 February 2001"
-            txt_Facts.Text = ""
-        End If
-
-    End Function
-
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        MsgBox(pathname)
         pathname = Application.StartupPath 'set pathname to current pathname
     End Sub
+
+    Function PopulateFields(person As String)
+        Dim filereaderpath As String
+        filereaderpath = pathname
+        Dim Turing, Berners, Hopper, Babbage, Shannon As System.IO.StreamReader
+        Turing = My.Computer.FileSystem.OpenTextFileReader(filereaderpath & "turing.txt") 'open text files ready
+        Berners = My.Computer.FileSystem.OpenTextFileReader(filereaderpath & "berners.txt")
+        Hopper = My.Computer.FileSystem.OpenTextFileReader(filereaderpath & "hopper.txt")
+        Babbage = My.Computer.FileSystem.OpenTextFileReader(filereaderpath & "babbage.txt")
+        Shannon = My.Computer.FileSystem.OpenTextFileReader(filereaderpath & "shannon.txt")
+
+        Select Case person
+            Case "Turing"
+                pbx_Photo.ImageLocation = pathname & "turing.jfif"
+                txt_Born.Text = "23 June 1912"
+                txt_Died.Text = "7 June 1954"
+                txt_Facts.Text = Turing.ReadToEnd()
+            Case "Berners"
+                pbx_Photo.ImageLocation = pathname & "berners.jfif"
+                txt_Born.Text = "8 June 1955"
+                txt_Died.Text = "N/A"
+                txt_Facts.Text = Berners.ReadToEnd()
+            Case "Hopper"
+                pbx_Photo.ImageLocation = pathname & "hopper.jpg"
+                txt_Born.Text = "9 December 1906"
+                txt_Died.Text = "1 January 1992"
+                txt_Facts.Text = Hopper.ReadToEnd()
+            Case "Babbage"
+                pbx_Photo.ImageLocation = pathname & "babbage.jpg"
+                txt_Born.Text = "26 December 1791"
+                txt_Died.Text = "18 October 1871"
+                txt_Facts.Text = Babbage.ReadToEnd()
+            Case "Shannon"
+                pbx_Photo.ImageLocation = pathname & "shannon.jpg"
+                txt_Born.Text = "30 April 1916"
+                txt_Died.Text = "24 February 2001"
+                txt_Facts.Text = Shannon.ReadToEnd()
+        End Select
+
+    End Function
 
     Private Sub btn_Turing_Click(sender As Object, e As EventArgs) Handles btn_Turing.Click
         PopulateFields("Turing")
@@ -65,5 +62,12 @@
 
     Private Sub btn_Shannon_Click(sender As Object, e As EventArgs) Handles btn_Shannon.Click
         PopulateFields("Shannon")
+    End Sub
+
+    Private Sub btn_Clear_Click(sender As Object, e As EventArgs) Handles btn_Clear.Click
+        txt_Born.Clear()
+        txt_Died.Clear()
+        pbx_Photo.Image = Nothing
+        txt_Facts.Clear()
     End Sub
 End Class

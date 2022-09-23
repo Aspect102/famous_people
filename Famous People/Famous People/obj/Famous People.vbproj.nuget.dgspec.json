@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zacgr\\source\\repos\\Famous People\\Famous People\\Famous People.vbproj": {}
+    "Z:\\Visual Studio 2022\\Famous People GIT\\Famous People\\Famous People\\Famous People.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\zacgr\\source\\repos\\Famous People\\Famous People\\Famous People.vbproj": {
+    "Z:\\Visual Studio 2022\\Famous People GIT\\Famous People\\Famous People\\Famous People.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zacgr\\source\\repos\\Famous People\\Famous People\\Famous People.vbproj",
+        "projectUniqueName": "Z:\\Visual Studio 2022\\Famous People GIT\\Famous People\\Famous People\\Famous People.vbproj",
         "projectName": "Famous People",
-        "projectPath": "C:\\Users\\zacgr\\source\\repos\\Famous People\\Famous People\\Famous People.vbproj",
-        "packagesPath": "C:\\Users\\zacgr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zacgr\\source\\repos\\Famous People\\Famous People\\obj\\",
+        "projectPath": "Z:\\Visual Studio 2022\\Famous People GIT\\Famous People\\Famous People\\Famous People.vbproj",
+        "packagesPath": "C:\\Users\\GRE21865624\\.nuget\\packages\\",
+        "outputPath": "Z:\\Visual Studio 2022\\Famous People GIT\\Famous People\\Famous People\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zacgr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GRE21865624\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -45,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

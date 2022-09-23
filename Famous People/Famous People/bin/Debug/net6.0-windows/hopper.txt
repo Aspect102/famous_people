@@ -1,0 +1,1 @@
+Grace Hopper was an American computer scientist, mathemtician and United States Navy real admiral. She was one of the first programmers, devising the theory of machine-independant programming languages. She later extended to create COBOL, an early high-level programming lanuage that is still used even in banks today.
